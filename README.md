@@ -1,7 +1,7 @@
 # IDXchange_data_science
 
 ## Dataset Overview
-This dataset is derived from the California Regional Multiple Listing Service (CRMLS), a regional Multiple Listing Service (MLS) that serves much of Southern California. MLS is a cooperative database where licensed real estate agents share property listings and transaction information. The dataset contains residential property transaction records from May 2025 through May 2026, including property characteristics, pricing, location, lot information, and other key real estate attributes. It is suitable for exploratory data analysis, data visualization, and predictive modeling tasks such as house price analysis.
+This dataset is derived from the California Regional Multiple Listing Service (CRMLS), a regional Multiple Listing Service (MLS) that serves much of Southern California. MLS is a cooperative database where licensed real estate agents share property listings and transaction information. The dataset contains residential property transaction records from May 2025 through Jun 2026, including property characteristics, pricing, location, lot information, and other key real estate attributes. It is suitable for exploratory data analysis, data visualization, and predictive modeling tasks such as house price analysis.
 
 ## Key Dataset Fields
 
