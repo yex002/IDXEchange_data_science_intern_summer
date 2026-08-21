@@ -1,4 +1,20 @@
 # IDXchange_data_science
+## Repository Structure
+
+- `data/` contains the cleaned and preprocessed data.
+- `results/`
+    - `baseline_result/` contains the results of the baseline models: Ordinary Linear Regression, Ridge Regression, Lasso Regression, and ElasticNet.
+    - `models_result/` contains the results of the advanced models: Decision Tree, Random Forest, XGBoost, and LightGBM.
+- `01_exploration.ipynb` performs exploratory data analysis (EDA) on the dataset.
+- `02_preprocessing.ipynb` contains the data preprocessing pipeline used to generate the cleaned dataset.
+- `03_baseline_model.ipynb` contains experiments with the baseline models.
+- `04_model_comparision.ipynb` compares baseline and advanced models before and after feature engineering.
+- `05_advanced_model.ipynb` contains experiments with the advanced models.
+- `06_evaluation.ipynb` evaluates the final selected model on the dataset.
+- `07_app.ipynb` contains the model training process for the Streamlit application.
+- `app.py` implements the Streamlit application.
+- `house_price_model.pkl` is the trained model used by the Streamlit application.
+
 
 ## Dataset Overview
 This dataset is derived from the California Regional Multiple Listing Service (CRMLS), a regional Multiple Listing Service (MLS) that serves much of Southern California. MLS is a cooperative database where licensed real estate agents share property listings and transaction information. The dataset contains residential property transaction records from May 2025 through Jun 2026, including property characteristics, pricing, location, lot information, and other key real estate attributes. It is suitable for exploratory data analysis, data visualization, and predictive modeling tasks such as house price analysis.
@@ -124,7 +140,7 @@ Higher mortgage interest rates generally reduce buyer affordability and may decr
 
 ---
 
-###Project Scope
+### Project Scope
 
 This project follows the task requirements:
 
@@ -138,3 +154,11 @@ This project follows the task requirements:
   - Bedrooms
   - Bathrooms
   - Lot Size
+    
+## Preprocess
+
+
+## Model tested
+
+
+## Best Result
