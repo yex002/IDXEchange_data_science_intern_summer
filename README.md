@@ -3,7 +3,7 @@
 ## Dataset Overview
 This dataset is derived from the California Regional Multiple Listing Service (CRMLS), a regional Multiple Listing Service (MLS) that serves much of Southern California. MLS is a cooperative database where licensed real estate agents share property listings and transaction information. The dataset contains residential property transaction records from May 2025 through Jun 2026, including property characteristics, pricing, location, lot information, and other key real estate attributes. It is suitable for exploratory data analysis, data visualization, and predictive modeling tasks such as house price analysis.
 
-## Key Dataset Fields
+### Key Dataset Fields
 
 | Field | Description |
 |-------|-------------|
@@ -19,7 +19,7 @@ This dataset is derived from the California Regional Multiple Listing Service (C
 | **Latitude / Longitude** | Geographic coordinates of the property. |
 | **UnparsedAddress** | Full property address as entered into the MLS. |
 
-## Transaction Lifecycle
+### Transaction Lifecycle
 
 The residential property transaction process in the MLS can be summarized into four stages:
 
@@ -31,14 +31,14 @@ The residential property transaction process in the MLS can be summarized into f
 
 4. **Closing** – After all contingencies are cleared, ownership is transferred, the transaction is finalized, and the final **ClosePrice** and **CloseDate** are recorded in the MLS.
 
-## Exploration of the dataset
-### Dataset info
+### Exploration of the dataset
+#### Dataset info
 The filtered dataset contains 188,550 residential property records with 79 features. Among these variables, there are 27 floating-point features, 3 integer features, and 49 categorical features. While the dataset is largely complete for the variables required in this assignment, several optional attributes contain substantial missing values, and a few columns are entirely empty (e.g., TaxAnnualAmount and FireplacesTotal). Therefore, these variables are excluded from the exploratory analysis. Following the project requirements, the subsequent EDA focuses on the distributions of ClosePrice, LivingArea, BedroomsTotal, BathroomsTotalInteger, and LotSizeSquareFeet, using only Residential Single Family Residence properties.
 
 
-# Dataset Notes
+## Dataset Notes
 
-## Price Fields
+### Price Fields
 
 - **ListPrice**: Seller's asking price before the property is sold.
 - **ClosePrice**: Final transaction price (target variable).
@@ -48,7 +48,7 @@ The filtered dataset contains 188,550 residential property records with 79 featu
 
 ---
 
-## Agent Information
+### Agent Information
 
 - Listing agent and buyer agent information are included.
 - Can be used for:
@@ -58,7 +58,7 @@ The filtered dataset contains 188,550 residential property records with 79 featu
 
 ---
 
-## Listings vs. Sold Dataset
+### Listings vs. Sold Dataset
 
 - **Listings Dataset**
   - Includes Active, Pending, Expired, Withdrawn, and Closed properties.
@@ -71,7 +71,7 @@ The filtered dataset contains 188,550 residential property records with 79 featu
 
 ---
 
-## MLS Status
+### MLS Status
 
 Common listing statuses:
 
@@ -86,7 +86,7 @@ Common listing statuses:
 
 ---
 
-## Days on Market (DOM)
+### Days on Market (DOM)
 
 - **DOM** measures the number of days a property remains on the market before selling.
 - Interpretation:
@@ -97,7 +97,7 @@ Common listing statuses:
 
 ---
 
-## Property Types
+### Property Types
 
 Common property types include:
 
@@ -111,7 +111,7 @@ Common property types include:
 
 ---
 
-## Mortgage Background
+### Mortgage Background
 
 Typical down payments:
 
@@ -124,7 +124,7 @@ Higher mortgage interest rates generally reduce buyer affordability and may decr
 
 ---
 
-## Project Scope
+###Project Scope
 
 This project follows the task requirements:
 
